@@ -57,7 +57,7 @@ namespace NameDogsAPI.Data
 
         public void Savechanges()
         {
-            _context.SaveChanges();
+            _context.SaveChangesAsync();
         }
 
 

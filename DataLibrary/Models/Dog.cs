@@ -8,15 +8,15 @@ namespace DataLibrary.Models
         public int ID { get; set; }
 
         [Required]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Required]
         public int Age { get; set; }
 
         [Required]
-        public string OwnerName { get; set; }
+        public string? OwnerName { get; set; }
 
         [Required]
-        public string Breed { get; set; }
+        public string? Breed { get; set; }
     }
 }
